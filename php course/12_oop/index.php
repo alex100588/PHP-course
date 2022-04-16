@@ -36,3 +36,40 @@
 //     }
 
 // }
+
+// $myPet = new Pet('British', 'Spaniel', 22);
+
+// echo '<pre>';
+// var_dump($myPet);
+// echo '</pre>';
+
+
+// class Person2{
+//     private $name;
+//     public $surname;
+//     private $age;
+
+//     public function __construct($name, $surname, $age)
+//     {
+//         $this->name = $name;
+//         $this->age = $age;
+//         $this->surname = $surname;
+//     }
+
+//     public function setName($name){
+//         $this->name = $name;
+//     }
+
+//     public function getName(){
+//         return $this->name;
+//     }
+
+//     public function setAge($age){
+//         $this->age = $age;
+//     }
+
+//     public function getAge(){
+//         return $this->age;
+//     }
+    
+// }
