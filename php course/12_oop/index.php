@@ -94,3 +94,25 @@
 
 ////////////////////////
 //Get the class from separate file
+use function PHPSTORM_META\type;
+
+require_once 'Person.php';
+require_once 'Student.php';
+
+// $adriana = new Person3('', 0);
+// $alexa = new Person3('', 0);
+// $oana = new Person3('', 0);
+
+// $adriana->setName('Adriana');
+// $adriana->setAge(30);
+
+// print_r($adriana);
+// echo $adriana->getName();
+// echo $adriana->getAge();
+
+// echo Person3::$counter;
+
+$andrei = new Student(10, 'Andrei', 22);
+
+print_r($andrei);
+echo gettype($andrei->grades);
