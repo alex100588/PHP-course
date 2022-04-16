@@ -73,3 +73,24 @@
 //     }
     
 // }
+// $alex = new Person2('Alex', 'Gabriel', 23);
+// $alex->setAge(44);
+
+// echo '<pre>';
+// var_dump($alex);
+// echo '</pre>';
+// echo $alex->getAge();
+
+// $p = new Person2('','','');
+// $p->setAge(22);
+// $p->setName('Anca');
+
+// echo '<pre>';
+// var_dump($p);
+// echo '</pre>';
+
+// echo $p->getAge() . '<br>';
+// echo $p->getName() . '<br>';
+
+////////////////////////
+//Get the class from separate file
