@@ -21,3 +21,18 @@
 // echo $person->name . '<br>';
 // echo $person->age . '<br>';
 // echo $person->surname . '<br>';
+// //Another class
+
+// class Pet{
+//     public $cat;
+//     public $dog;
+//     public $fish;
+
+//     public function __construct($cat, $dog, $fish)
+//     {
+//         $this->cat = $cat;
+//         $this->dog = $dog;
+//         $this->fish = $fish;
+//     }
+
+// }
