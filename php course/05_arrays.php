@@ -162,3 +162,65 @@ $todos = [
 ];
 
 print_r($todos);
+
+
+
+
+// arrays
+$programmingLanguages0 = ['PHP', 'Java', 'Python'];
+
+echo count($programmingLanguages0);
+
+$programmingLanguages0[] = 'Javascript';
+$programmingLanguages0[] = 'React';
+echo '<br>';
+
+array_push($programmingLanguages0, 'Kothlin', 'Java');
+array_unshift($programmingLanguages0, 'Laravel', 'PHP');
+
+echo count($programmingLanguages0);
+
+print_r($programmingLanguages0);
+
+echo array_pop($programmingLanguages0);
+echo array_shift($programmingLanguages0);
+
+
+                    // associative arrays
+
+$programmingLanguages = [
+    'php' => 8.0,
+    'python' => '3.9'
+];
+
+echo $programmingLanguages['php'];
+echo $programmingLanguages['python'];
+
+$programmingLanguages['go'] = '1.15';
+$programmingLanguages['Javascript'] = 'ecmaScript, es6';
+$programmingLanguages['Java'] = 'Version 5';
+print_r($programmingLanguages);
+
+$programmingLanguages2 = [
+    'php' => [
+        'creator' => 'Rasmus',
+        'extension'=> '.php',
+        'versions' =>[
+            ['version1' => 8, 'realeaseDate' => 'nov'],
+            ['version2' => 7.4, 'realeaseDate' => 'dec'],
+        ],
+    ],
+];
+
+print_r($programmingLanguages2);
+
+
+echo $programmingLanguages2['php']['creator'];
+
+echo $programmingLanguages2['php']['versions'][0]['realeaseDate'];
+echo $programmingLanguages2['php']['versions'][1]['realeaseDate'];
+
+
+?>
+
+
