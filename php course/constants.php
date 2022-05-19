@@ -15,6 +15,37 @@ const SECOND_JOB =  'web dev';
 
 echo PHP_VERSION;
 
+// const with define
+// define('FIRST_NAME', 'Alex');
+// define('STATUS_PAID', 'paid');
+// define('AGE', 20);
+
+// echo FIRST_NAME . '<br>';
+// echo STATUS_PAID . '<br>';
+// echo AGE . '<br>';
+
+// echo defined('STATUS_PAID');
+// echo defined('FIRST_NAME');
+// echo defined('AGE');
+// echo defined('SALARY') . '<br>';;
+
+
+// // const with const
+
+// const JOB = 'programmer';
+// const SALARY = 2000;
+// const NAME = 'DAN';
+
+// echo JOB . '<br>';
+// echo SALARY . '<br>';
+// echo NAME . '<br>';
+
+// echo __FILE__  . '<br>';
+
+// echo __LINE__ . '<br>';
+
+
+
 ?>
 
 <!DOCTYPE html>
