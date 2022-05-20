@@ -40,8 +40,8 @@ echo sum(28, 56);
 // echo totals(2,45,6,7,57,33,445,65);
 // Arrow functions
 
-function totals(...$values){
-    return array_reduce($values, fn($total, $n) => $total + $n) . '<br>';
+function totals(...$nums){
+    return array_reduce($nums, fn($acc, $val)=>$acc + $val) .'<br>';
 }
 
 echo totals(2,3,4);
